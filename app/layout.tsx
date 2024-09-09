@@ -59,8 +59,6 @@ export default function RootLayout({
         <meta name="twitter:description" content="Learn how ANDL is transforming education with responsible and explainable AI." />
         <meta name="twitter:image" content="/images/andl-twitter-card.jpg" />
 
-        {/* Favicon */}
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <body className={inter.className}>{children}</body>
     </html>
