@@ -10,9 +10,9 @@ export default function HeroAndDemo() {
         <span className="text-[#6321E6]">Explainable</span> LLM
       </h1>
       <p className="mb-8 max-w-2xl mx-auto">
-      The new standard in AI for education.
+        The new standard in AI for education.
       </p>
-      <div className="flex justify-center gap-4 mb-16">
+      <div className="flex justify-center gap-4 mb-8">
         <a href="mailto:team@andl.io" className="border border-[#00171f] text-[#00171f] px-6 py-2 rounded-full font-semibold hover:bg-hs-third">
           Book a demo →
         </a>
