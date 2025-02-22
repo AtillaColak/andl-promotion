@@ -48,7 +48,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
       style={{ width: CARD_WIDTH }}
       className={`bg-white text-black p-6 rounded-lg select-none transition-all duration-300
         ${isSelected ? "scale-110 shadow-xl z-50" : "cursor-move"}
-        ${isStacked ? "shadow-[0_4px_8px_rgba(0,0,0,0.1)]" : "shadow-lg hover:shadow-xl"}`}
+        ${isStacked ? "shadow-[0_4px_8px_rgba(0,0,0,0.1)]" : "shadow-lg md:hover:shadow-xl"}`}
     >
       <div className="mb-3">{icon}</div>
       <h3 className="text-lg font-bold mb-2">{title}</h3>

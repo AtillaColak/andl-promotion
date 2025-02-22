@@ -135,7 +135,7 @@ export default function HeroAndDemo() {
           </a>
         </div>
       </motion.div>
-      <div className="hidden md:block">
+      <div className="block">
         <VisionSection />
       </div>
     </section>

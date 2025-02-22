@@ -17,7 +17,7 @@ function Modal({ onClose, children }: { onClose: () => void; children: React.Rea
       <div className="bg-white dark:bg-gray-800 p-6 rounded-lg relative max-w-md w-full">
         <button
           onClick={onClose}
-          className="absolute top-2 right-2 text-gray-500 hover:text-gray-700 text-2xl"
+          className="absolute top-2 right-2 text-gray-500 md:hover:text-gray-700 text-2xl"
         >
           &times;
         </button>
@@ -134,9 +134,9 @@ export function FloatingInfoCard({
         className="absolute cursor-pointer select-none"
         onClick={toggleModal}
       >
-        <div className="bg-white bg-opacity-80 dark:bg-transparent p-4 rounded-xl shadow-lg backdrop-blur-sm border border-transparent dark:border-white transform hover:scale-110 transition-transform duration-300 dark:hover:bg-white/10">
+        <div className="bg-white bg-opacity-80 dark:bg-transparent p-4 rounded-xl shadow-lg backdrop-blur-sm border border-transparent dark:border-white transform md:hover:scale-110 transition-transform duration-300 md:dark:hover:bg-white/10">
           <div className="flex items-center justify-center">
-            <div className="w-12 h-12 bg-gradient-to-br from-[#AF95E2] to-[#6321E6] rounded-xl flex items-center justify-center transition-transform duration-300 hover:rotate-3">
+            <div className="w-12 h-12 bg-gradient-to-br from-[#AF95E2] to-[#6321E6] rounded-xl flex items-center justify-center transition-transform duration-300 md:hover:rotate-3">
               {icon}
             </div>
           </div>
