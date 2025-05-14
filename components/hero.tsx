@@ -108,7 +108,7 @@ export default function HeroAndDemo() {
       <motion.div className="relative z-40 text-center pt-24 mb-16 transition-all duration-500">
         <div className="mx-auto w-full">
           <h1 className="text-5xl font-bold mb-6 leading-tight text-[#111827] dark:text-[#F9FAFB]">
-            <span>Your AI Tutor, </span>
+            <span>Your AI Study Companion</span>
             <span className="block ">Made </span>
             <span className="block ">
               <AnimatedWord />
